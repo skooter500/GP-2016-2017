@@ -17,7 +17,7 @@ Resources
 
 * Email: bryan.duggan@dit.ie
 * Twitter: [@skooter500](http://twitter.com/skooter500)
-* Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com]
+* Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com)
 
 Some assignments from previous years:
 
