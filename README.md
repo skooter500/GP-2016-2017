@@ -48,6 +48,8 @@ Log onto Webcourses and enroll on the module GAME1003.
 
 Take the time to look up the following methods in the [Processing language reference](http://processing.org/reference/ ) to make sure you are clear about the syntax and parameters:
 
+* noStroke
+* noBackground
 * line
 * ellipse
 * rect
@@ -55,6 +57,8 @@ Take the time to look up the following methods in the [Processing language refer
 * stroke
 * fill
 * size
+* arc
+* triangle
 
 Write a processing sketch to draw the following shapes:
 
@@ -62,7 +66,7 @@ Write a processing sketch to draw the following shapes:
 
 ![Sketch](images/p1.1.png)
 
-![Sketch](images/vg.jpg)
+![Sketch](images/p1.2.png)
 
 Try experimenting with colours!
 
