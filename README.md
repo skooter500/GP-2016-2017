@@ -56,9 +56,13 @@ Take the time to look up the following methods in the [Processing language refer
 * fill
 * size
 
-Here are two shapes you can draw:
+Write a processing sketch to draw the following shapes:
 
 ![Sketch](images/p1.png)
+
+![Sketch](images/p1.1.png)
+
+![Sketch](images/vg.jpg)
 
 Try experimenting with colours!
 
