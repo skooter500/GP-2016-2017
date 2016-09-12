@@ -32,8 +32,8 @@ Some assignments from previous years:
 # Week 1
 
 ## Lecture
-- [Introduction slides](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263972&authkey=!AK1asYNZOHgqEC0&ithint=file%2cpptx)
-- [The contract for this course](http://1drv.ms/1DbmnG9)
+- [Introduction slides](https://1drv.ms/p/s!Ak7y2552PWCrkMw2-mb76OvGqWk6NQ)
+- [The contract for this course](https://1drv.ms/w/s!Ak7y2552PWCrjPYXt8HlWl1T1cg5Og)
 
 ##Lab
 ### Learning Outcomes
