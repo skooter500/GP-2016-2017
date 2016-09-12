@@ -14,9 +14,10 @@ Resources
 * [The Imagine Cup](https://www.imaginecup.com/)
 
 ## Contact the lecturer
-Email: bryan.duggan@dit.ie
-Twitter: [@skooter500](http://twitter.com/skooter500)
-Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com]
+
+* Email: bryan.duggan@dit.ie
+* Twitter: [@skooter500](http://twitter.com/skooter500)
+* Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com]
 
 Some assignments from previous years:
 
