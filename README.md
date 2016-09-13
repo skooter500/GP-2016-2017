@@ -68,6 +68,6 @@ Write processing sketches to draw the following shapes:
 
 ![Sketch](images/p1.2.png)
 
-Try experimenting with different colours
+I find it much easier to work out the coordinates by drawing out the shapes on paper first! Try experimenting with different colours
 
 [Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
