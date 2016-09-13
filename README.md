@@ -60,7 +60,7 @@ Look up the following methods in the [Processing language reference](http://proc
 * arc
 * triangle
 
-Write a processing sketch to draw the following shapes:
+Write processing sketches to draw the following shapes:
 
 ![Sketch](images/p1.png)
 
@@ -68,6 +68,6 @@ Write a processing sketch to draw the following shapes:
 
 ![Sketch](images/p1.2.png)
 
-Try experimenting with colours!
+Try experimenting with different colours
 
 [Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
