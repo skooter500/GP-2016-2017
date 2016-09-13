@@ -46,10 +46,10 @@ Firstly, go to [https://gp-2016-2017.slack.com](https://gp-2016-2017.slack.com) 
 
 Log onto Webcourses and enroll on the module GAME1003.
 
-Take the time to look up the following methods in the [Processing language reference](http://processing.org/reference/ ) to make sure you are clear about the syntax and parameters:
+Look up the following methods in the [Processing language reference](http://processing.org/reference/ ) to make sure you are clear about the syntax and parameters:
 
 * noStroke
-* noBackground
+* noFill
 * line
 * ellipse
 * rect
@@ -70,4 +70,4 @@ Write a processing sketch to draw the following shapes:
 
 Try experimenting with colours!
 
-When you are finished with these exercises, [log onto webcourses](http://dit.ie/webcourses) and complete the MCQ for this week
+[Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
