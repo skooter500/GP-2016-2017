@@ -71,3 +71,36 @@ Write processing sketches to draw the following shapes:
 Try experimenting with different colours
 
 [Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
+
+# Week 2
+- [Program with the moving rectangle](processing/rectangle)
+- [Program that draws a spiral](processing/variables)
+- [Using variables in processing](https://processing.org/examples/variablescope.html)
+
+## Lab
+
+Here is a video of a sketch you can make today:
+
+[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
+
+What is happening:
+
+- The ground takes up half the window size
+- The spaceship is 100 pixels wide and is *centered* around the mouse position.
+- The person starts at the right side of the screen and moved from right to left
+
+Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
+
+Bonus!
+
+There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
+
+- Come up with a more beautiful looking spaceship and person
+- Change the colours of everything
+- Make a car that drives from left to right
+- When the person reaches the left side of the screen, he should switch direction
+- Make the lights on the spaceship flash different colours
+
+Post a picture of your creation on the slack.
+
+Logon to Webcourses and do the MCQ for today.
