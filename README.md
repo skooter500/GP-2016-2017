@@ -79,6 +79,12 @@ I find it much easier to work out the coordinates by drawing out the shapes on p
 
 ## Lab
 
+### Learning Outcomes
+- Learn how to analyse a problem and figure out a solution
+- Practice drawing in processing
+- Practice using variables
+- Practice using operations
+
 Here is a video of a sketch you can make today:
 
 [![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
