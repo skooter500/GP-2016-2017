@@ -29,6 +29,68 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 3
+- [Quardants sketch](processing/quadrants)
+- [Moving rectangle with an if statement](processing/rectangle)
+
+### Some videos about the if statement
+
+[![YouTube](http://img.youtube.com/vi/mVq7Ms01RjA/0.jpg)](https://www.youtube.com/watch?v=mVq7Ms01RjA)
+
+[![YouTube](http://img.youtube.com/vi/9857701OsDE/0.jpg)](https://www.youtube.com/watch?v=9857701OsDE)
+
+## Lab
+### Learning outcomes
+- Practice using variables & offsets
+- Practice using the if statement
+
+In the class we used the if statement to get a rectangle to move from left top right across the screen and back again. Here is a [link to that sketch](processing/rectangle). Try and modify that it draws a face  that starts in the middle of the screen and then moves around the outside of the screen. This is a little trickey to get right. You should < > in your if statement and if the face goes beyond the bounds of the window, you need to move it back inside the window. Here is a video of what your sketch should look like:
+
+[![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
+
+Do the MCQ
+
+# Week 2
+- [Program with the moving rectangle](processing/rectangle)
+- [Program that draws a spiral](processing/variables)
+- [Using variables in processing](https://processing.org/examples/variablescope.html)
+
+## Lab
+
+### Learning Outcomes
+- Learn how to analyse a problem and figure out a solution
+- Practice drawing in processing
+- Practice using variables
+- Practice using operations
+
+Here is a video of a sketch you can make today:
+
+[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
+
+What is happening:
+
+- The ground takes up half the window size
+- The spaceship is 100 pixels wide and is *centered* around the mouse position.
+- The person starts at the right side of the screen and moved from right to left
+
+Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
+
+Bonus!
+
+There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
+
+- Come up with a more beautiful looking spaceship and person
+- Change the colours of everything
+- Make a car that drives from left to right
+- When the person reaches the left side of the screen, he should switch direction
+- Make the lights on the spaceship flash different colours
+
+Post a picture of your creation on the slack.
+
+[Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
+
+- [Solution to the lab](processing/alien)
+
 # Week 1
 
 ## Lecture
@@ -69,44 +131,5 @@ Write processing sketches to draw the following shapes:
 ![Sketch](images/p1.2.png)
 
 I find it much easier to work out the coordinates by drawing out the shapes on paper first! Try experimenting with different colours
-
-[Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
-
-# Week 2
-- [Program with the moving rectangle](processing/rectangle)
-- [Program that draws a spiral](processing/variables)
-- [Using variables in processing](https://processing.org/examples/variablescope.html)
-
-## Lab
-
-### Learning Outcomes
-- Learn how to analyse a problem and figure out a solution
-- Practice drawing in processing
-- Practice using variables
-- Practice using operations
-
-Here is a video of a sketch you can make today:
-
-[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
-
-What is happening:
-
-- The ground takes up half the window size
-- The spaceship is 100 pixels wide and is *centered* around the mouse position.
-- The person starts at the right side of the screen and moved from right to left
-
-Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
-
-Bonus!
-
-There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
-
-- Come up with a more beautiful looking spaceship and person
-- Change the colours of everything
-- Make a car that drives from left to right
-- When the person reaches the left side of the screen, he should switch direction
-- Make the lights on the spaceship flash different colours
-
-Post a picture of your creation on the slack.
 
 [Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
