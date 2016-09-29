@@ -31,7 +31,7 @@ Some assignments from previous years:
 
 # Week 3
 - [Quardants sketch](processing/quadrants)
-- [Moving rectangle with an if statement](processing/rectangle)
+- [Moving rectangle with an if statement](processing/rectangle/rectangleWithIf)
 
 ### Some videos about the if statement
 
@@ -47,6 +47,8 @@ Some assignments from previous years:
 In the class we used the if statement to get a rectangle to move from left top right across the screen and back again. Here is a [link to that sketch](processing/rectangle). Try and modify that it draws a face  that starts in the middle of the screen and then moves around the outside of the screen. This is a little trickey to get right. You should < > in your if statement and if the face goes beyond the bounds of the window, you need to move it back inside the window. Here is a video of what your sketch should look like:
 
 [![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
+
+- [Solution to the lab](processing/facearoundthewall)
 
 Do the MCQ
 
