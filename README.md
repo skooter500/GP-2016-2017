@@ -36,7 +36,7 @@ Some assignments from previous years:
 - [Program we wrote to draw a spiral](processing/spirals)
 - [Program plot the sine wave](processing/sinewave)
 - [The exam grade sketch we wrote in the class](processing/examMarks)
-- [My spiral generative art](processing/genart1)
+- [My spiral generative art](http://github.com/skooter500/genart1)
 - Making Spirals in Processing lecture:
 
   [![YouTube](http://img.youtube.com/vi/wVivMDVRs3I/0.jpg)](https://www.youtube.com/watch?v=wVivMDVRs3I)
