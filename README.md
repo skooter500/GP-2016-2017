@@ -29,6 +29,57 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 4
+
+## Lecture
+
+- [Program we wrote to draw a spiral](processing/spirals)
+- [Program plot the sine wave](processing/sinewave)
+- [The exam grade sketch we wrote in the class](processing/examMarks)
+- [My spiral generative art](processing/genart1)
+- Making Spirals in Processing lecture:
+
+  [![YouTube](http://img.youtube.com/vi/wVivMDVRs3I/0.jpg)](https://www.youtube.com/watch?v=wVivMDVRs3I)
+
+- Variables & trigonometry:
+
+  [![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
+
+## Lab
+  Today we are having a Spiral Jam
+
+- What I want you to do it:
+  - Form a team of no more than three people. Just the people sitting next to you is fine!
+  - Firstly, go through the examples from the class and explain them to each other to make sure you all understand what is happening.
+  - Now I want you to design a spiral or similar shape of your teams design. Just using the stuff we have learned in the class. In your spiral design, you can use
+    - Variables
+    - sin, cos, tan
+    - angles
+    - Variable operations like addition, subtraction etc
+    - Colour methods and random colours
+    - line, ellipse, rect etc.
+  - Before you write any code decide using pen and paper:
+    - What variables you need
+    - Whether the variables should be local or global
+    - What happens to the variables each frame (what operations to perform)
+    - What to draw
+    - What decisions your program has to make - what if statements you need
+
+Here are some additional Processing methods you can incorporate into your sketches. Be brave! Look these up and try them out in your sketches and see if you can figure out how they work:
+
+- [noise](https://processing.org/reference/noise_.html)
+- [map](https://processing.org/reference/map_.html)
+- [translate](https://processing.org/reference/translate_.html)
+- [rotate](https://processing.org/reference/rotate_.html)
+- [lerp](https://processing.org/reference/lerp_.html)
+- [lerpColor](https://processing.org/reference/lerpColor_.html)
+
+Also if you want to try making sound in Processing, you can use the [Minim library](http://code.compartmental.net/tools/minim/)
+
+A gold star to the team that produces the sketch of the best design and complexity. Think simplicity in the design of your code and only use the minimum onumber of variables to solve your problem.
+
+Upload your sketches to the Slack!
+
 # Week 3
 - [Quardants sketch](processing/quadrants)
 - [Moving rectangle with an if statement](processing/rectangle/rectangleWithIf)
@@ -56,6 +107,10 @@ Do the MCQ
 - [Program with the moving rectangle](processing/rectangle)
 - [Program that draws a spiral](processing/variables)
 - [Using variables in processing](https://processing.org/examples/variablescope.html)
+
+- Data types, the if statement and dynamic sketches in Processing video (from last year)
+
+  [![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=Y0b9W3UJ2BU)
 
 ## Lab
 
