@@ -75,7 +75,7 @@ This is what it looks like when all the above code is in one sketch:
 
 Please use lots of colours and stuff in your sketches today and share pictures on the slack. Also I created a channel on the slack for us to share our favourite coding music.
 
-Logon to webcourses and do the MCQ
+Do the MCQ
 
 # Week 4
 
