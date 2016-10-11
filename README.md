@@ -43,6 +43,8 @@ Some assignments from previous years:
 
 Try and write some processing code to draw the following shapes. Use variables and loops in your solutions!
 
+Its best to spend some time thinking about the variables and how they are changing before writing code:
+
 These require ONE loop:
 
 ![Sketch](images/p21.png)
@@ -67,7 +69,7 @@ Finally! This sketch requires you to put one loop inside another and also use a 
 
 ![Sketch](images/p23.png)
 
-Please use lots of collours and stuff in your sketches today and share pictures on the slack. Also I created a channel on the slack for us to share our favourite coding music.
+Please use lots of colours and stuff in your sketches today and share pictures on the slack. Also I created a channel on the slack for us to share our favourite coding music.
 
 Logon to webcourses and do the MCQ
 
