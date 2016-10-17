@@ -77,6 +77,8 @@ Please use lots of colours and stuff in your sketches today and share pictures o
 
 Do the MCQ
 
+- [Solution to the lab](processing/loopsLab)
+
 # Week 4
 
 ## Lecture
