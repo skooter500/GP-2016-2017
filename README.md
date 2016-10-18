@@ -40,6 +40,10 @@ Some assignments from previous years:
 
 Today let's finish programming BugZap. Start with [the code we wrote in the class yesterday](processing/BugZap). Use your creativity and change colours and shapes of the player and bug.
 
+Here is a video of my version:
+
+[![YouTube](http://img.youtube.com/vi/s6PA8jtWneQ/0.jpg)](https://www.youtube.com/watch?v=s6PA8jtWneQ)
+
 - Now add the player lazer. I used to UP key for this. I just drew a line for the lazer.
 - Make a variable for score and check for collisions between the lazer and the bug. Add a variable for score. You can print stuff to the screen using the text method in Processing. In my version, I actually used [this processing library](http://www.foobarquarium.de/blog/processing/MovingLetters/) which makes wireframe text.
 - Make some sound effects and add them to the game. I used [BFXR](http://www.bfxr.net/) to make the sounds and the Minim library to play them, but you might prefer to use the [built-in audio methods in Processing](https://processing.org/tutorials/sound/).
