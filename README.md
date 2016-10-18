@@ -29,6 +29,24 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 6
+- [BugZap work in progress from the class](processing/BugZap)
+
+## Lab
+### Learning Outcomes
+- Implement a complete simple game project!
+- Use if statements, methods and the % operator
+- Model a game system in code (scoring, movement, collisions)
+
+Today let's finish programming BugZap. Start with [the code we wrote in the class yesterday](processing/BugZap). Use your creativity and change colours and shapes of the player and bug.
+
+- Now add the player lazer. I used to UP key for this. I just drew a line for the lazer.
+- Make a variable for score and check for collisions between the lazer and the bug. Add a variable for score. You can print stuff to the screen using the text method in Processing. In my version, I actually used [this processing library](http://www.foobarquarium.de/blog/processing/MovingLetters/) which makes wireframe text.
+- Make some sound effects and add them to the game. I used [BFXR](http://www.bfxr.net/) to make the sounds and the Minim library to play them, but you might prefer to use the [built-in audio methods in Processing](https://processing.org/tutorials/sound/).
+- Add the splash screen and game over screen. I used an int variable called gameState to control this.
+
+Upload pictures of your creations to the Slack. There is no MCQ this week
+
 # Week 5
 - [Lots of loops examples](processing/lotsaloops)
 - [The lines program we wrote in the class](processing/starship)
