@@ -29,8 +29,11 @@ Some assignments from previous years:
 
 # Semester 1
 
+
+
 # Week 6
 - [BugZap work in progress from the class](processing/BugZap)
+- [Lab test 1 from last year](https://github.com/skooter500/dt508_2015_labtest1)
 
 ## Lab
 ### Learning Outcomes
@@ -50,6 +53,8 @@ Here is a video of my version:
 - Add the splash screen and game over screen. I used an int variable called gameState to control this.
 
 Upload pictures of your creations to the Slack. There is no MCQ this week
+
+- [Complete BugZap!]()
 
 # Week 5
 - [Lots of loops examples](processing/lotsaloops)
