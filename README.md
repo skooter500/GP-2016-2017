@@ -29,7 +29,10 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 7
+- All about arrays in processing
 
+  [![YouTube](http://img.youtube.com/vi/cMWxN4j30A0/0.jpg)](https://www.youtube.com/watch?v=cMWxN4j30A0)
 
 # Week 6
 - [BugZap work in progress from the class](processing/BugZap)
@@ -54,7 +57,7 @@ Here is a video of my version:
 
 Upload pictures of your creations to the Slack. There is no MCQ this week
 
-- [Complete BugZap!]()
+- [Complete BugZap!](https://github.com/skooter500/BugZap)
 
 # Week 5
 - [Lots of loops examples](processing/lotsaloops)
