@@ -80,6 +80,9 @@ Advanced:
 
 Try and draw a pie chart!
 
+![Sketch](images/p25.png)
+
+
 Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. You an use random colours so that every month has a different colour.
 
 Upload screenshots of your sketches to slack and do the MCQ for today.
