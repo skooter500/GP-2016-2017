@@ -29,6 +29,54 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 9
+- [Incomplete Game of Life code for the lab today](processing/lifeIncomplete)
+
+- Stephen Hawkings on the Game of Life:
+
+  [![YouTube](http://img.youtube.com/vi/CgOcEZinQ2I/0.jpg)](https://www.youtube.com/watch?v=CgOcEZinQ2I)
+
+- John Conway on the Game of Life:
+
+  [![YouTube](http://img.youtube.com/vi/C2vgICfQawE/0.jpg)](https://www.youtube.com/watch?v=C2vgICfQawE)
+
+- Epic Conway's Game of Life:
+
+  [![YouTube](http://img.youtube.com/vi/FdMzngWchDk/0.jpg)](https://www.youtube.com/watch?v=FdMzngWchDk)
+
+- And finally, Alan Watts
+
+  [![YouTube](http://img.youtube.com/vi/wU0PYcCsL6o/0.jpg)](https://www.youtube.com/watch?v=wU0PYcCsL6o)
+
+- [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+- [The Game of Life Wiki](http://www.conwaylife.com/wiki/Main_Page)
+
+## Lab
+### Learning Outcomes
+- Practice iterating over a 2D array
+
+Get the code that we worked on yesterday from the Slack. We will finish off implementing the Game of Life next week, but for now lets try and make the following additions:
+
+- Finish writing the method ```countLiveCellsSurrounding```. You can test your implementation by setting some cells to truecalling the method from setup and printing the results. For example, if using the code from the class and adding the line:
+
+
+  ``` println(countLiveCellsSurrounding(0,2));
+  ```
+
+  Should print 3 because there are 3 live cells around cell (0, 2)
+
+- The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true.
+
+- When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false.
+- When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the 2D array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.
+
+Here is a video of what my sketch looks like:
+
+[![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As)
+
+# Week 8
+- [Lab Test](https://github.com/skooter500/GP_Lab_Test_1/)
+
 # Week 7
 - [Methods in processing](https://processing.org/examples/functions.html)
 - [The arrays program we wrote in the class today](processing/arrays)
