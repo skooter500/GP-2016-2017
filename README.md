@@ -30,7 +30,7 @@ Some assignments from previous years:
 # Semester 1
 
 # Week 9
-- [Incomplete Game of Life code for the lab today](processing/lifeIncomplete)
+- [Incomplete Game of Life code for the lab today](processing/LifeWIP)
 
 - Stephen Hawkings on the Game of Life:
 
@@ -54,8 +54,10 @@ Some assignments from previous years:
 ## Lab
 ### Learning Outcomes
 - Practice iterating over a 2D array
+- Practice writing if statements
+- Write and call a method
 
-Get the code that we worked on yesterday from the Slack. We will finish off implementing the Game of Life next week, but for now lets try and make the following additions:
+Get the code that we worked on yesterday from Slack. We will finish off implementing the Game of Life next week, but for now lets try and make the following additions:
 
 - Finish writing the method ```countLiveCellsSurrounding```. You can test your implementation by setting some cells to truecalling the method from setup and printing the results. For example, if using the code from the class and adding the line:
 
