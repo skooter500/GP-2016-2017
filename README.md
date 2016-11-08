@@ -62,7 +62,8 @@ Get the code that we worked on yesterday from Slack. We will finish off implemen
 - Finish writing the method ```countLiveCellsSurrounding```. You can test your implementation by setting some cells to truecalling the method from setup and printing the results. For example, if using the code from the class and adding the line:
 
 
-  ``` println(countLiveCellsSurrounding(0,2));
+  ```
+  println(countLiveCellsSurrounding(0,2));
   ```
 
   Should print 3 because there are 3 live cells around cell (0, 2)
