@@ -70,8 +70,8 @@ Get the code that we worked on yesterday from Slack. We will finish off implemen
 
 - The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true.
 
-- When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false.
-- When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the 2D array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.
+- When you press the c key, the board should clear. In otherwords, you should set every value in the 2D array to be false.
+- When you press the r key, you should randomly set 50% of the values to be true and 50% to be false. To do this, you need to iterate through the 2D array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the value at the row and column to be true otherwise set it to be false.
 
 Here is a video of what my sketch looks like:
 
