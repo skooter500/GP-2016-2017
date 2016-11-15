@@ -29,6 +29,35 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 10
+- [Game of Life complete](processing/LifeWIP)
+
+## Lab
+### Learning Outcomes
+- Experiment making creatures in Conway's Game of Life
+- Practice iterating over a 2D array
+- Discover the amazing power of cellular automata
+
+For today, please start with the [Game of Life](processing/LifeWIP) code we wrote in the class yesterday and make the following changes:
+
+- When you press the space key, the game should pause and unmpause, in other words, not update the game board while the game is paused
+- When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false.
+- When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.
+
+There some interesting starting patterns you can program also. You could write code so that when you press a number key it creates the starting pattern at the mouse x and y. I used the mouse x and y to be the top left of the shape.
+
+| Pattern | Description |
+|---------|-------------|
+|![Sketch](images/p13.png) | Gosper Gun |
+|![Sketch](images/p14.png) | Lightweight spaceship |
+|![Sketch](images/p15.png) | Tumbler |
+|![Sketch](images/p16.png) | Glider |
+|![Sketch](images/p17.png) | I'm not sure what this is called, but it makes amazing patterns |
+
+Here is a video of what my sketch looks like:
+
+Please share your work on the class slack!
+
 # Week 9
 - [Incomplete Game of Life code for the lab today](processing/LifeWIP)
 
@@ -59,7 +88,7 @@ Some assignments from previous years:
 
 Get the code that we worked on yesterday from Slack. We will finish off implementing the Game of Life next week, but for now lets try and make the following additions:
 
-- Finish writing the method ```countLiveCellsSurrounding```. You can test your implementation by setting some cells to truecalling the method from setup and printing the results. For example, if using the code from the class and adding the line:
+- Finish writing the method ```countLiveCellsSurrounding```. You can test your implementation by setting some cells to be true  and calling the method from setup and printing the results. For example, using the code from the class and adding the line:
 
 
   ```
