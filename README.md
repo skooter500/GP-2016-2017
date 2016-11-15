@@ -54,8 +54,6 @@ There some interesting starting patterns you can program also. You could write c
 |![Sketch](images/p16.png) | Glider |
 |![Sketch](images/p17.png) | I'm not sure what this is called, but it makes amazing patterns |
 
-Here is a video of what my sketch looks like:
-
 Please share your work on the class slack!
 
 # Week 9
