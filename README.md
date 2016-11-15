@@ -40,7 +40,7 @@ Some assignments from previous years:
 
 For today, please start with the [Game of Life](processing/LifeWIP) code we wrote in the class yesterday and make the following changes:
 
-- When you press the space key, the game should pause and unmpause, in other words, not update the game board while the game is paused
+- When you press the space key, the game should pause and unpause, in other words, not update the game board while the game is paused
 - When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false.
 - When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.
 
