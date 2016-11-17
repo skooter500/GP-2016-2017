@@ -19,6 +19,10 @@ Resources
 * Twitter: [@skooter500](http://twitter.com/skooter500)
 * Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com)
 
+## Assignments
+
+- [Assignments & rubrics](assignments.md)
+
 Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/4g3qwul2o44/0.jpg)](https://www.youtube.com/watch?v=4g3qwul2o44)
