@@ -29,6 +29,14 @@ Some assignments from previous years:
 
 # Semester 1
 
+# Week 11
+- [Snow without classes](processing/Snow)
+- [Snow with a class](processing/SnowWithClass)
+
+## Lab
+
+Work on your assignment! Try and add the snow effect we worked on in the class. 
+
 # Week 10
 - [Game of Life complete](processing/LifeWIP)
 
