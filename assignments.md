@@ -19,7 +19,7 @@ Create this game in Processing:
 
 Your game must include the following features:
 - A splash screen, game screen and game over screen
-- Player left and right movement
+- Player up and down movement
 - Black blocks that move from right to left. If the player collides with one of the black blocks, they will loose a life. These should have random y positions. Ideally these should be evenly spaced
 - When the number of lives goes to 0, it is game over.
 - Random yellow blocks. If the player collides with one of these, they should gain a point.
@@ -48,7 +48,7 @@ Marking scheme:
 Rules!
 
 - As much as possible this project should be 100% your own code. You will not get any marks for any code that include that you get from books or from the internet. This assignment is about testing what *you* have learned and what *you* can do.
-- The date for submission is Monday 20 February 2017
+- The date for submission is Monday 13 February 2017
 - All assignment submissions must be demoed in the lab that week.
 - If you need to submit an assignment late, you must submit a PC/1 form to the exams office.
 
