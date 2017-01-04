@@ -15,7 +15,7 @@ Assignments - 50%
 ## Assignment 2
 Create this game in Processing:
 
-[![Video](http://img.youtube.com/vi/DXlPvvmSogU/0.jpg)](http://www.youtube.com/watch?v=DXlPvvmSogU)
+[![Video](http://img.youtube.com/vi/Qx0Z3MS3Lzg/0.jpg)](http://www.youtube.com/watch?v=Qx0Z3MS3Lzg)
 
 Your game must include the following features:
 - A splash screen, game screen and game over screen
