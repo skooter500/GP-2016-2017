@@ -12,8 +12,8 @@ Assignments - 50%
 - Assignment 3 - (Semester 2 assignment) - 15%
 - MCQ's 5 - 5%
 
-## Assignment 1
-Create a version of this game in Processing:
+## Assignment 2
+Create this game in Processing:
 
 [![Video](http://img.youtube.com/vi/DXlPvvmSogU/0.jpg)](http://www.youtube.com/watch?v=DXlPvvmSogU)
 
