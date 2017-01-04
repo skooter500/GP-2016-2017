@@ -13,7 +13,7 @@ Assignments - 50%
 - MCQ's 5 - 5%
 
 ## Assignment 1
-Use the skills you are learning on the course to create a version of this game in Processing:
+Create a version of this game in Processing:
 
 [![Video](http://img.youtube.com/vi/DXlPvvmSogU/0.jpg)](http://www.youtube.com/watch?v=DXlPvvmSogU)
 
