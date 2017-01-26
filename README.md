@@ -31,6 +31,24 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/BH4alGk5-A4/0.jpg)](https://www.youtube.com/watch?v=BH4alGk5-A4)
 
+# Semester 2
+
+# Week 1
+- Video about classes, pushMatrix, popMatrix etc:
+- Make sure you understand classes, objects, instiantiation, fields, methods, constructors, translate, rotate pushMatrix and popMatrix. Here is a video that will help:
+
+  [![YouTube](http://img.youtube.com/vi/XwniJyTIdec/0.jpg)](https://www.youtube.com/watch?v=XwniJyTIdec)
+
+- [The example program we wrtote in the class](processing/YASC1)
+- [Snow with a class](processing/SnowWithClass)
+- [Classes with an ArrayList and Polymorphism](processing/particles)
+
+## Lab
+
+- [Read Daniel Shiffmans explination of how to use classes in processing](https://processing.org/tutorials/objects/) 
+- Check out the classes examples above
+- Make classes for your assignment
+
 # Semester 1
 
 # Week 11
