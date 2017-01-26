@@ -34,20 +34,21 @@ Some assignments from previous years:
 # Semester 2
 
 # Week 1
-- Video about classes, pushMatrix, popMatrix etc:
 - Make sure you understand classes, objects, instiantiation, fields, methods, constructors, translate, rotate pushMatrix and popMatrix. Here is a video that will help:
 
   [![YouTube](http://img.youtube.com/vi/XwniJyTIdec/0.jpg)](https://www.youtube.com/watch?v=XwniJyTIdec)
 
-- [The example program we wrtote in the class](processing/YASC1)
+- [The example program we wrote in the class (ship moving around the screen with classes)](processing/YASC1)
 - [Snow with a class](processing/SnowWithClass)
 - [Classes with an ArrayList and Polymorphism](processing/particles)
+- [Download YASC (the complete game) on itch](https://skooter500.itch.io/yasc)
+- [The full YASC source code](https://github.com/skooter500/YASC)
 
 ## Lab
 
-- [Read Daniel Shiffmans explination of how to use classes in processing](https://processing.org/tutorials/objects/) 
+- [Read Daniel Shiffmans explanation of how to use classes in processing](https://processing.org/tutorials/objects/) 
 - Check out the classes examples above
-- Make classes for your assignment
+- Make classes for your assignment. I suggest you make at least a class for the player and a class for the enemy
 
 # Semester 1
 
