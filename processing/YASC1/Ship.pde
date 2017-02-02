@@ -2,10 +2,8 @@ class Ship
 {
   // Fields of the Ship class
   // What the ship IS
-  float x;
-  float y;
-  float fx;
-  float fy;
+  PVector pos; // Instances of the PVector
+  PVector forward;
   float radius = 25;
   float theta;
   
@@ -17,27 +15,24 @@ class Ship
     // this is a reference to the current ship
     // this.x means the x that is
     // part of the ship
-    this.x = x;
-    this.y = y;
+    pos = new PVector(x, y);
+    forward = new PVector(0, 1);
     this.radius = radius;
     theta = 0;
   }
   
   void update()
   {
-    println("fx: " + fx + " fy: " + fy);
-    fx = sin(theta);
-    fy = - cos(theta);
+    forward.x = sin(theta);
+    forward.y = - cos(theta);
     
     if (checkKey('w'))
     {
-      x += fx;
-      y += fy;
+      pos.add(forward);
     }
     if (checkKey('s'))
     {
-      x -= fx;
-      y -= fy;
+      pos.sub(forward);
     }
     if (checkKey('a'))
     {
@@ -52,7 +47,7 @@ class Ship
   void render()
   {
     pushMatrix();
-    translate(x, y); // Specify them in the opposite order!
+    translate(pos.x, pos.y); // Specify them in the opposite order!
     rotate(theta);
     
     line(- radius, radius, 0, - radius);
