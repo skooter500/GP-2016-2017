@@ -35,6 +35,7 @@ Some assignments from previous years:
 
 # Week 3
 - PVectors, classes
+- [Collision detection](processing/CollisionDetection)
 
 ## Lab
 Start with the solution to last weeks lab [which you can find here](processing/MoveTowards) and modify it so that instead of moving towards the mouse, the circle objects follow a path. Here is what the sketch could look like:
