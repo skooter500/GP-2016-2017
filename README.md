@@ -33,6 +33,30 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 3
+- PVectors, classes
+
+## Lab
+Start with the solution to last weeks lab [which you can find here](processing/MoveTowards) and modify it so that instead of moving towards the mouse, the circle objects follow a path. Here is what the sketch could look like:
+
+[![YouTube](http://img.youtube.com/vi/YZcJp2pGd7I/0.jpg)](https://www.youtube.com/watch?v=YZcJp2pGd7I)
+
+How to do it:
+- In MoveTowards.pde, make a new global array of PVectors with 5 elements and call the array waypoints
+- In setup, use a for loop to set the 5 elements in the array to be new PVectors with random x and y values
+- Write a method called drawPath that draws circles at each of the waypoints and draws a line between the waypoints so the path is drawn
+- Add an int field to circle called cw (short for current waypoint) and give it a value of 0 in the constructor
+- Modify the update method to move the circle towards the waypoint at index cw
+- Once the circle gets close, you should increment cw
+- Make sure the circles "wrap around" the path. In other words when the circle reaches the end of the path, it should loop back to the start of the path
+
+# Week 2
+- PVectors
+
+## Lab
+- Circles and lines moving towards the mouse
+- [Solution](processing/MoveTowards)
+
 # Week 1
 - Make sure you understand classes, objects, instiantiation, fields, methods, constructors, translate, rotate pushMatrix and popMatrix. Here is a video that will help:
 
