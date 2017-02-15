@@ -43,14 +43,22 @@ void draw()
   background(0);
   stroke(255);
   strokeWeight(3);
+  
   ship.update();
   ship.render();
   
-  ship1.update();
-  ship1.render();
+  for(int i = 0 ; i < bullets.size() ; i ++)
+  {
+    Bullet b = bullets.get(i);
+    b.update();
+    b.render();
+  }
+  println(bullets.size());
 }
 
 boolean[] keys = new boolean[1000];
+
+ArrayList<Bullet> bullets = new ArrayList<Bullet>();
 
 boolean checkKey(int k)
 {

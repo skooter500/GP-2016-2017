@@ -42,6 +42,13 @@ class Ship
     {
       theta += 0.1f;
     }
+    
+    if (checkKey(' '))
+    {
+      PVector inFront = PVector.add(pos, PVector.mult(forward, radius));
+      Bullet b = new Bullet(inFront.x, inFront.y, theta);
+      bullets.add(b);
+    }
   }
   
   void render()
