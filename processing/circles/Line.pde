@@ -27,12 +27,11 @@ class Line
   float speed = width / 3.0f;
   void update()
   {
-    /*PVector mouse = new PVector(mouseX, mouseY);
+    PVector mouse = new PVector(mouseX, mouseY);
     forward = PVector.sub(mouse, pos);
     forward .normalize();
     theta = atan2(forward.y, forward.x) + (PI / 2.0);
-    */
-    theta = PI / 2.0f;
+    
     pos.add(PVector.mult(forward, speed * deltaTime));
     
     

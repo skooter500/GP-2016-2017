@@ -33,6 +33,17 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 4
+
+# Lab
+Read the processing documentation for the following Classes, PVectors, Constructors, ArrayLists!
+[Download the ArrayList code](processing/circles) we wrote in the class yesterday and modify it in the follow way:
+
+Add a speed field to the Circle class to control how fast it moves
+Modify the Circle class to get the Circle to follow the path instead of moving towards the mouse. The path is stored in an ArrayList of Pvector objects called wayPoints.
+Make an ArrayList of Circles objects
+Every second, add a new Circle object to the ArrayList, so that over time you should see lots of circles following the path
+
 # Week 3
 - PVectors, classes
 - [Collision detection](processing/CollisionDetection)
