@@ -22,6 +22,18 @@ class Bullet
     {
       bullets.remove(this);
     }
+    
+    for (int i = 0 ; i < enemies.size() ; i ++)
+    {
+      Enemy e = enemies.get(i);
+      if (PVector.dist(pos, e.pos) < 10)
+      {
+        enemies.remove(e);
+        bullets.remove(this);
+      }
+    }
+    
+    
   }
   
   void render()

@@ -8,26 +8,28 @@ void setup()
     lines[i] = new Line();
   }
   
-  for (int i = 0 ; i < waypoints.length ; i ++)
+  for (int i = 0 ; i < 5 ; i ++)
   {
-    waypoints[i] = new PVector(random(0, width), random(0, height));
+    waypoints.add(new PVector(random(0, width), random(0, height)));
   }
   
 }
 
 Circle[] circles = new Circle[10];
 Line[] lines = new Line[10];
-PVector[] waypoints = new PVector[5];
+ArrayList<PVector> waypoints = new ArrayList<PVector>();
 
 void drawPath()
 {
   stroke(255);
-  for (int i = 0 ; i <= waypoints.length ; i ++)
+  for (int i = 0 ; i <= waypoints.size() ; i ++)
   {
-    ellipse(waypoints[i % waypoints.length].x, waypoints[i % waypoints.length].y, 5, 5);
+    PVector curr = waypoints.get(i % waypoints.size());
+    PVector next = waypoints.get((i + 1) % waypoints.size());
+    ellipse(curr.x, curr.y, 5, 5);
     if (i > 0)
     {
-      line(waypoints[i-1].x, waypoints[i-1].y, waypoints[i % waypoints.length].x, waypoints[i % waypoints.length].y);
+      line(curr.x, curr.y, next.x, next.y);
     }
   }
 }

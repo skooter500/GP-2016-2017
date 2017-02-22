@@ -1,12 +1,18 @@
+// Make an enemy class!
+// Make an arraylist of enemies
+// Create some enemies and add them to the array list
+// When the bullet hits the enemies, the enemies get removed!
+
+
 void setup()
 {
   size(500, 500);
   
   // Instiantiating the ship variable
-  ship = new Ship(width /2, height / 2, 50);
+  ship = new Ship(width /2, height / 2, 20);
   ship1 = new Ship(150, 50, 100);
   
-  PVector a = new PVector(7, 13);
+ /* PVector a = new PVector(7, 13);
   PVector b = new PVector(25, 3);
   
   float opp = b.x - a.x;
@@ -14,7 +20,6 @@ void setup()
   float hyp = sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
   
   float theta = atan(opp / adj);
-  println(theta);
   
   PVector norm = new PVector();
   
@@ -31,12 +36,14 @@ void setup()
   norm.x = sin(theta);
   norm.y = -cos(theta);
   println(norm);
-  
+  */
   
 }
 // Making a variable called ship of type Ship
 Ship ship; // Instances of the Ship class
 Ship ship1;
+
+ArrayList<Enemy> enemies = new ArrayList<Enemy>();
 
 void draw()
 {
@@ -53,6 +60,20 @@ void draw()
     b.update();
     b.render();
   }
+  
+  if (frameCount % 60 == 0)
+  {
+    Enemy e = new Enemy(-50, random(0, height));
+    enemies.add(e);
+  }
+  
+  for(int i = 0 ; i < enemies.size() ; i ++)
+  {
+    Enemy e = enemies.get(i);
+    e.update();
+    e.render();
+  }
+  
   println(bullets.size());
 }
 

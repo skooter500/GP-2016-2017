@@ -20,13 +20,13 @@ class Circle
   
   void update()
   {
-    PVector waypoint = waypoints[cw];
+    PVector waypoint = waypoints.get(cw);
     forward = PVector.sub(waypoint, pos);
     forward.normalize();
     pos.add(PVector.mult(forward, speed));
     if (dist(waypoint.x, waypoint.y, pos.x, pos.y) < 10)
     {
-      cw = (cw + 1) % waypoints.length;
+      cw = (cw + 1) % waypoints.size();
     }
   }
   

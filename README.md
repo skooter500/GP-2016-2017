@@ -37,6 +37,26 @@ Some assignments from previous years:
 - [Follow path code](processing/FollowPath)
 - [YASC](processing/YASC1)
 
+## Lab
+### Learning Outcomes
+- Make classes
+- Use an ArrayList
+- Practice using PVectors
+
+Start with the program we wrote in the class on Wednesday. You can find it [here](processing/YASC1). You should also check out the [circle and line following code](processing/FollowPath) as you might need some of the code to calculate the angle from the bullet to the player (hint: use atan2)
+
+Make the following changes!
+
+- Instead of moving towards the player, make the enemy follow a random path. You can have all the enemies follow a different path. To do this each enemy will need its own Path variable as a field in the class rather than using a global path variable like we did in the class.
+
+- Every time the Enemy reaches a waypoint, it should fire a bullet in the direction of the the player
+- If the bullet hits the player, the player can loose a life. Only the enemy bullets can damage the player and these should be a different colour to the player bullets. 
+
+Here is a video of what the finished program could look like:
+
+[![YouTube](http://img.youtube.com/vi/6qzw__ENHlA/0.jpg)](https://www.youtube.com/watch?v=6qzw__ENHlA)
+
+
 # Week 4
 
 # Lab
