@@ -33,6 +33,10 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 5
+- [Follow path code](processing/FollowPath)
+- [YASC](processing/YASC1)
+
 # Week 4
 
 # Lab
