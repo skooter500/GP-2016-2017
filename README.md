@@ -33,6 +33,9 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 6
+- Physics
+
 # Week 5
 - [Follow path code](processing/FollowPath)
 - [YASC](processing/YASC1)
@@ -55,6 +58,8 @@ Make the following changes!
 Here is a video of what the finished program could look like:
 
 [![YouTube](http://img.youtube.com/vi/6qzw__ENHlA/0.jpg)](https://www.youtube.com/watch?v=6qzw__ENHlA)
+
+- [Solution](processing/YASC2)
 
 
 # Week 4
