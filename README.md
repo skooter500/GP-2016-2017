@@ -34,7 +34,37 @@ Some assignments from previous years:
 # Semester 2
 
 # Week 6
-- Physics
+- [YASC program with inheritance & Polymorphism](processing/YASC3)
+- [Calculating angles from vectors and vectors from angles]()
+- [Simple example of polymorphism](processing/polymorphism)
+
+  [![YouTube](http://img.youtube.com/vi/Yd1yHosYkhY/0.jpg)](https://www.youtube.com/watch?v=Yd1yHosYkhY)
+  
+  [![YouTube](http://img.youtube.com/vi/nt2DzM5n8iw/0.jpg)](https://www.youtube.com/watch?v=nt2DzM5n8iw)
+  
+  [![YouTube](http://img.youtube.com/vi/qqYOYIVrso0/0.jpg)](https://www.youtube.com/watch?v=qqYOYIVrso0)
+
+## Lab
+### Learning outcomes
+- Learn how to use sound and images in a Processing sketch
+- Learn how polymorphism and inheritance work
+
+Start todays lab by reading up on the following topics Pimage, Processing sound, inheritance, super, extends, polymorphism. [This article](https://processing.org/examples/multipleparticlesystems.html) might help. 
+
+[Here are some assets](processing/DogsCats) you can use to complete todays lab. You can put these into the data folder of your sketch. The aim of today is to make this sketch using classes, inheritance and polymorphism
+
+[![YouTube](http://img.youtube.com/vi/cuWD9-kAv64/0.jpg)](https://www.youtube.com/watch?v=cuWD9-kAv64)
+
+- Make a base class called Animal with a PVector for the x and y of the position of the animal and a display and speak method
+- Make a sublcass called Dog that extra fields to hold the image to be displayed and the audio file to be played. Load these in the constructor!
+- Make a sublcass called Cat that extra fields to hold the image to be displayed and the audio file to be played. Load these in the constructor!
+- Make a sublcass called Sheep that extra fields to hold the image to be displayed and the audio file to be played. Load these in the constructor!
+- In the sketch, make an ArrayList of type Animal
+- Write a method called setupAnimals that clears the arraylist and adds three random animals to the ArrayList. Each element can be a Dog, Cat or a Sheep.
+- In the draw method, write code to call the display method on each animal in the ArrayList to draw it to the screen
+- When you press the keys 1, 2, or 3, you should call the speak method on the appropriate Animal in the ArrayList. You can convert a key to a number using this code ```int num = key - '0';``` If key is the '0' key, then num will hold the number 0 for example.
+- When you press SPACE, you should call setupAnimals again to shuffle the animals in the ArrayList. 
+
 
 # Week 5
 - [Follow path code](processing/FollowPath)
