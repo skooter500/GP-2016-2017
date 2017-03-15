@@ -33,9 +33,94 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 8
+- Digital audio
+
+# Lab
+- Learn how digital audio works and experiment with Minim
+
+Some resources for today's lab:
+- [Introduction to digital audio]](https://en.wikipedia.org/wiki/Digital_audio)
+- [Minim](http://code.compartmental.net/tools/minim/)
+
+[Here is a Processing sketch](processing/AudioVis) that does some basic audio visualisation stuff using the minim library. Try it out! Ideally get it running with a microphone and see what happens in the sketch when you make different sounds. Now go through the sketch line by line figure out what each line does. You should work in a group and explain stuff to each other. You should look up anything you don't understand in the Processing and Minim references.  
+
+Using the sketch as a basis, see what cool stuff you can come up with.
+
+# Week 7
+- Review Week & Games Fleadh
+
+# Week 6
+- [YASC program with inheritance & Polymorphism](processing/YASC3)
+- [Calculating angles from vectors and vectors from angles]()
+- [Simple example of polymorphism](processing/polymorphism)
+
+- Some videos I made explaining how polymorphism works:
+
+  [![YouTube](http://img.youtube.com/vi/Yd1yHosYkhY/0.jpg)](https://www.youtube.com/watch?v=Yd1yHosYkhY)
+  
+  [![YouTube](http://img.youtube.com/vi/nt2DzM5n8iw/0.jpg)](https://www.youtube.com/watch?v=nt2DzM5n8iw)
+  
+  [![YouTube](http://img.youtube.com/vi/qqYOYIVrso0/0.jpg)](https://www.youtube.com/watch?v=qqYOYIVrso0)
+
+## Lab
+### Learning outcomes
+- Learn how to use sound and images in a Processing sketch
+- Learn how polymorphism and inheritance work
+
+Start todays lab by reading up on the following topics: Pimage, Processing sound, inheritance, super, extends, polymorphism. [This article](https://processing.org/examples/multipleparticlesystems.html) might also help explain how polymorphism works. 
+
+[Here are some assets](processing/DogsCats) you can use to complete todays lab. You can put these into the data folder of your sketch. The aim of today is to make this sketch using classes, inheritance and polymorphism:
+
+[![YouTube](http://img.youtube.com/vi/cuWD9-kAv64/0.jpg)](https://www.youtube.com/watch?v=cuWD9-kAv64)
+
+- Make a base class called Animal with a PVector for the x and y of the position of the animal and display and speak methods
+- Make a sublcass called Dog that extra fields to hold the image to be displayed and the audio file to be played. Load these in the constructor!
+- Make a sublcass called Cat that extra fields to hold the image to be displayed and the audio file to be played. Load these in the constructor!
+- Make a sublcass called Sheep that extra fields to hold the image to be displayed and the audio file to be played. Load these in the constructor!
+- In the sketch, make an ArrayList of type Animal
+- Write a method called setupAnimals that clears the arraylist and adds three random animals to the ArrayList. Each element can be a Dog, Cat or a Sheep.
+- In the draw method, write code to call the display method on each animal in the ArrayList to draw it to the screen
+- When you press the keys 1, 2, or 3, you should call the speak method on the appropriate Animal in the ArrayList. You can convert a key to a number using this code ```int num = key - '0';``` If key is the '0' key, then num will hold the number 0 for example. For example, pressing 0 should call the speak method on element 0 from the arraylist and polymorphism will take care of calling the correct speak method on the object from the arraylist.
+- When you press SPACE, you should call setupAnimals again to remove and create new animals in the ArrayList. 
+
+
+# Week 5
+- [Follow path code](processing/FollowPath)
+- [YASC](processing/YASC1)
+
+## Lab
+### Learning Outcomes
+- Make classes
+- Use an ArrayList
+- Practice using PVectors
+
+Start with the program we wrote in the class on Wednesday. You can find it [here](processing/YASC1). You should also check out the [circle and line following code](processing/FollowPath) as you might need some of the code to calculate the angle from the bullet to the player (hint: use atan2)
+
+Make the following changes!
+
+- Instead of moving towards the player, make the enemy follow a random path. You can have all the enemies follow a different path. To do this each enemy will need its own Path variable as a field in the class rather than using a global path variable like we did in the class.
+
+- Every time the Enemy reaches a waypoint, it should fire a bullet in the direction of the the player
+- If the bullet hits the player, the player can loose a life. Only the enemy bullets can damage the player and these should be a different colour to the player bullets. 
+
+Here is a video of what the finished program could look like:
+
+[![YouTube](http://img.youtube.com/vi/6qzw__ENHlA/0.jpg)](https://www.youtube.com/watch?v=6qzw__ENHlA)
+
+- [Solution](processing/YASC2)
+
+
 # Week 4
-- [ArrayList's in Processing reference](https://processing.org/reference/ArrayList.html)
-- [The ArrayList example we did in the class](processing/circles)
+
+# Lab
+- Read the processing documentation for the following Classes, PVectors, Constructors, ArrayLists!
+- [Download the ArrayList code](processing/circles) we wrote in the class yesterday and modify it in the follow way:
+- Add a speed field to the Circle class to control how fast it moves
+- Modify the Circle class to get the Circle to follow the path instead of moving towards the mouse. The path is stored in an ArrayList of Pvector objects called wayPoints.
+- Make an ArrayList of Circles objects
+- Every second, add a new Circle object to the ArrayList, so that over time you should see lots of circles following the path
+>>>>>>> 12afcb2c572fa596c50829c44e8bb056667a5638
 
 # Week 3
 - PVectors, classes
