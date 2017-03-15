@@ -33,6 +33,10 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 4
+- [ArrayList's in Processing reference](https://processing.org/reference/ArrayList.html)
+- [The ArrayList example we did in the class](processing/circles)
+
 # Week 3
 - PVectors, classes
 - [Collision detection](processing/CollisionDetection)

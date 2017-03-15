@@ -7,12 +7,15 @@ class Circle
   
   int cw; // the current waypoint
   
+  float speed;
+  
   Circle(float x, float y, float r, color c)
   {
     pos = new PVector(x, y);
     forward = new PVector(0, -1);
     radius = r;
     this.c = c;
+    this.speed = random(1, 10);
   }
   
   Circle()
@@ -26,10 +29,23 @@ class Circle
     
     // Follow the mouse
     
+    /*
     PVector mouse = new PVector(mouseX, mouseY);
     forward = PVector.sub(mouse, pos);
     forward .normalize();
     pos.add(forward);
+    */
+    
+    // Follow the path
+    PVector current = wayPoints.get(cw);
+    if (PVector.dist(current, pos) < 10)
+    {
+      cw = (cw + 1) % wayPoints.size();
+    }
+    
+    forward = PVector.sub(current, pos);
+    forward .normalize();
+    pos.add(PVector.mult(forward, speed));
     
     
     /*
