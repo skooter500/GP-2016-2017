@@ -40,7 +40,7 @@ Some assignments from previous years:
 - Learn how digital audio works and experiment with Minim
 
 Some resources for today's lab:
-- [Introduction to digital audio]](https://en.wikipedia.org/wiki/Digital_audio)
+- [Introduction to digital audio](https://en.wikipedia.org/wiki/Digital_audio)
 - [Minim](http://code.compartmental.net/tools/minim/)
 
 [Here is a Processing sketch](processing/AudioVis) that does some basic audio visualisation stuff using the minim library. Try it out! Ideally get it running with a microphone and see what happens in the sketch when you make different sounds. Now go through the sketch line by line figure out what each line does. You should work in a group and explain stuff to each other. You should look up anything you don't understand in the Processing and Minim references.  
