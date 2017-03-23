@@ -5,65 +5,104 @@ import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 
-
-Minim minim;
-AudioSample audioInput;
-FFT fft;
-
-static final int FRAME_SIZE = 2048;
-static final int SAMPLE_RATE = 44100;
-
-public void setup()
+void setup()
 {
   size(1024, 512);
   minim = new Minim(this);
-  //audioInput = minim.getLineIn(Minim.MONO, FRAME_SIZE, SAMPLE_RATE, 16); // Use this for microphone input
-  audioInput = minim.loadSample("scale.wav", FRAME_SIZE); // Use this for input from a file
-  fft = new FFT(FRAME_SIZE, SAMPLE_RATE);  
+  // Use this if you want to read from the mic
+  //ai = minim.getLineIn(Minim.STEREO, width, sampleRate, resolution);
+  
+  // Use this line if you want to load a file
+  ai = minim.loadSample("scale.wav", 1024);
+  
+  halfHeight = height / 2;
+  newBackColor();
+  fft = new FFT(width, sampleRate);
 }
 
-boolean lastPressed = false;
-
-public void draw()
+void newBackColor()
 {
+  backColor = color(
+              random(0, 255)
+              , random(0, 255)
+              , random(0, 255)
+              );
+}
+
+Minim minim;
+FFT fft; // Used to plot the spectrum
+AudioSample  ai; // Change this to an AudioSample if you want to load a file instead of using the microphone
+
+// CD Quality
+int sampleRate = 44100;
+int resolution = 16;
+
+float halfHeight;
+float radius = 0;
+float threshold = 0.2;
+color backColor;
+
+void keyPressed()
+{
+  if (key == ' ')
+  {
+    // Uncomment this if you want to play the audio file
+    ai.trigger();  
+  }
+}
+
+float eRadius;
+
+float numBands = 10.0f;
+void draw()
+{
+  background(backColor);
+  stroke(255, 255, 0);
+  float total = 0;
   
-  if (keyPressed && key == ' ' && ! lastPressed)
+  // Plot the waveform
+  for (int i = 0 ; i < ai.bufferSize() ; i ++)
   {
-    audioInput.trigger();
-    lastPressed = true;
+    line(i, halfHeight, i, halfHeight + (ai.left.get(i) * halfHeight));
+    total += abs(ai.left.get(i));
   }
-  else
-  {
-    lastPressed = false;
-  }
-  background(0);
-  stroke(255);
-  float mid = height / 2.0f;
-  float average = 0;
-  int count = 0;
-  for(int i = 1 ; i < audioInput.bufferSize() ; i ++)
-  {
-    line(i, mid , i, mid + audioInput.left.get(i) * mid);
-    average += Math.abs(audioInput.left.get(i));    
-  }
-  average /= audioInput.bufferSize();  
-  fill(255);
-   
+  float average = total / ai.bufferSize();
+  
+  radius = lerp(radius, average, 0.1f);
+  ellipse(halfHeight, halfHeight, radius * height, radius * height); 
+  
+  
+  // You always need to do this
   fft.window(FFT.HAMMING);
-  fft.forward(audioInput.left);
+  fft.forward(ai.left);
+  
   stroke(0, 255, 255);
-  for(int i = 0 ; i < fft.specSize(); i ++)
+  
+  // Find the bin with the maximum value. Every entry in the FFT array is called a bin
+  float maxEnergy = 0;
+  int maxBin = -1;
+  
+  for(int i = 0 ; i < fft.specSize() ; i ++)
   {
     float energy = fft.getBand(i);
-    line(i, height, i, height - (energy * 50));    
+    if (energy > maxEnergy)
+    {
+      maxEnergy = energy;
+      maxBin = i;
+    }
+    line(i * 2, height, i * 2 + 1, height - (energy * 50));    
   }
-  noFill();
-  noStroke();
-  stroke(0, 255, 0f);
-  float min = 100;    
-  float target = min + average * mid;
-  circleRadius = lerp(circleRadius, target, 0.1f);
-  ellipse(width / 2, height / 2, circleRadius, circleRadius);  
+  float freq = fft.indexToFreq(maxBin);
+  text("Frequency: " + freq, 10, 10);
+  
+  if (average > threshold)
+  {
+    y = lerp(y, map(freq, 400, 1200, height, 0), 0.1f);
+  }
+  stroke(255, 0, 0);
+  fill(255, 0, 0);
+  ellipse(50, y, 50, 50);
+ 
 }
 
-float circleRadius = 0;
+float y = 0;
