@@ -7,13 +7,13 @@ import ddf.minim.ugens.*;
 
 void setup()
 {
-  size(512, 512);
+  size(1024, 512);
   minim = new Minim(this);
   // Use this if you want to read from the mic
   //ai = minim.getLineIn(Minim.STEREO, width, sampleRate, resolution);
   
   // Use this line if you want to load a file
-  ai = minim.loadSample("scale.wav", 512);
+  ai = minim.loadSample("scale.wav", 1024);
   
   halfHeight = height / 2;
   newBackColor();
@@ -49,10 +49,11 @@ void keyPressed()
     // Uncomment this if you want to play the audio file
     ai.trigger();  
   }
- 
 }
 
 float eRadius;
+
+float numBands = 10.0f;
 void draw()
 {
   background(backColor);
@@ -80,6 +81,7 @@ void draw()
   // Find the bin with the maximum value. Every entry in the FFT array is called a bin
   float maxEnergy = 0;
   int maxBin = -1;
+  
   for(int i = 0 ; i < fft.specSize() ; i ++)
   {
     float energy = fft.getBand(i);
