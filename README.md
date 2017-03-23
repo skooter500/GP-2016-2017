@@ -33,6 +33,23 @@ Some assignments from previous years:
 
 # Semester 2
 
+# Week 8
+- Digital audio
+
+# Lab
+- Learn how digital audio works and experiment with Minim
+
+Some resources for today's lab:
+- [Introduction to digital audio](https://en.wikipedia.org/wiki/Digital_audio)
+- [Minim](http://code.compartmental.net/tools/minim/)
+
+[Here is a Processing sketch](processing/AudioVis) that does some basic audio visualisation stuff using the minim library. Try it out! Ideally get it running with a microphone and see what happens in the sketch when you make different sounds. Now go through the sketch line by line figure out what each line does. You should work in a group and explain stuff to each other. You should look up anything you don't understand in the Processing and Minim references.  
+
+Using the sketch as a basis, see what cool stuff you can come up with.
+
+# Week 7
+- Review Week & Games Fleadh
+
 # Week 6
 - [YASC program with inheritance & Polymorphism](processing/YASC3)
 - [Calculating angles from vectors and vectors from angles]()
@@ -103,6 +120,7 @@ Here is a video of what the finished program could look like:
 - Modify the Circle class to get the Circle to follow the path instead of moving towards the mouse. The path is stored in an ArrayList of Pvector objects called wayPoints.
 - Make an ArrayList of Circles objects
 - Every second, add a new Circle object to the ArrayList, so that over time you should see lots of circles following the path
+>>>>>>> 12afcb2c572fa596c50829c44e8bb056667a5638
 
 # Week 3
 - PVectors, classes

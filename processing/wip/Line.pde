@@ -31,6 +31,9 @@ class Line
     forward = PVector.sub(mouse, pos);
     forward .normalize();
     theta = atan2(forward.y, forward.x) + (PI / 2.0);
+
     pos.add(PVector.mult(forward, speed * deltaTime));
+    
+    
   }
 }
