@@ -15,7 +15,7 @@ Assignments - 50%
 ## Assignment 3 - 
 
 - Project teams chosen by 9th March
-- Final project submission & demo Thursday 11th April
+- Final project submission & demo Thursday 24 April
 
 For this assignment you can do a team project with a team of up to 3 people. You can choose your own teams. You can have less than 3 people and you can also do an individual assignment if you prefer. It would be great if you could manage your code through a public git repository and you can use either Processing or Unity. The theme of the assignment is:
 
