@@ -13,6 +13,12 @@ Resources
 * [Games Fleadh](http://www.gamesfleadh.ie/)
 * [The Imagine Cup](https://www.imaginecup.com/)
 
+## Past Exams
+- [Lab Test 1 2016](https://github.com/skooter500/GP_Lab_Test_1)
+- [Supplemental lab test 2 2016](https://github.com/skooter500/DT508-Lab-Test-Supplemental-2016)
+- [End of year lab test 2016 Solution](https://github.com/skooter500/DT508-Lab-Test-Solution-2016)
+- [Lab Test 1 2015](https://github.com/skooter500/dt508_2015_labtest1)
+
 ## Contact the lecturer
 
 * Email: bryan.duggan@dit.ie
